@@ -1,70 +1,123 @@
 [
-    {
-      "title": "Telegram URL Shortener Bot",
-      "contents": [
-        "Developed a Golang-based microservice for URL shortening with a Telegram bot interface.",
-        "Implemented features for link shortening, retrieval, click stats, and link management.",
-        "Used Redis for caching and MongoDB for persistent storage to ensure fast and efficient URL retrieval."
-      ],
-      "images": [],
-      "technologies": ["Golang", "Redis", "MongoDB", "Telegram API"],
-      "liveLink": "https://web.telegram.org/k/#@ClipURLBot",
-      "githubLink": "https://github.com/saifwork/Url-Shortner-Service"
-    },
-    {
-      "title": "YouTube Video Downloader Bot",
-      "contents": [
-        "Developed a Golang microservice backend for a Telegram bot that downloads YouTube videos.",
-        "Integrated a CLI tool for efficient video processing and downloading.",
-        "On URL submission, users receive video quality options: Audio-only, 360p, 480p, 720p, 1080p."
-      ],
-      "images": [],
-      "technologies": ["Golang", "Telegram API", "CLI"],
-      "liveLink": "https://web.telegram.org/k/#@QuickVidLoaderBot",
-      "githubLink": "https://github.com/saifwork/Video-Downloader-Service"
-    },
-    {
-      "title": "Random Audio/Video Chat Application",
-      "contents": [
-        "Developed a Flutter-based web app for one-on-one video and audio communication.",
-        "Integrated WebRTC for real-time, low-latency audio and video calls.",
-        "Built a Gin-based backend and used WebSockets for transmitting initial connection data."
-      ],
-      "images": [],
-      "technologies": ["Flutter", "WebRTC", "Golang", "Gin", "WebSockets"],
-      "liveLink": "",
-      "githubLink": "https://github.com/saifwork/meengle-frontend"
-    },
-    {
-      "title": "Personal Portfolio",
-      "contents": [
-        "Designed and developed a cross-platform responsive portfolio showcasing skills, projects, and achievements.",
-        "Included interactive animations and a modern UI to enhance user experience."
-      ],
-      "images": [],
-      "technologies": ["Flutter", "Dart"],
-      "liveLink": "https://portfolio-theta-fawn-75.vercel.app/",
-      "githubLink": "https://github.com/saifwork/Portfolio_Build"
-    },
-    {
-      "title": "Campaign Microservice",
-      "contents": [
-        "Designed a scalable backend to manage campaign scheduling, winner selection, and real-time updates using Kafka."
-      ],
-      "images": [],
-      "technologies": ["Golang", "Kafka", "MongoDB", "Redis"],
-      "liveLink": "",
-      "githubLink": ""
-    },
-    {
-      "title": "Slot Game Dynamic Board Generator",
-      "contents": [
-        "Implemented a dynamic slot reel generator for a casino game, ensuring randomness and fairness."
-      ],
-      "images": [],
-      "technologies": ["Golang"],
-      "liveLink": "",
-      "githubLink": ""
-    }
+  {
+    "title": "Telegram URL Shortener Bot",
+    "contents": [
+      "Developed a Golang-based microservice for URL shortening with a Telegram bot interface.",
+      "Implemented features for link shortening, retrieval, click stats, and link management.",
+      "Used Redis for caching and MongoDB for persistent storage to ensure fast and efficient URL retrieval.",
+      "Users can shorten a link and retrieve it instantly via the Telegram bot.",
+      "Users can view all the links they have created along with their details.",
+      "Provides detailed statistics for each link, including the number of clicks, creation time, first click, and last click.",
+      "Tracks geographical data, showing the countries from which the link has been accessed.",
+      "Analyzes device information, including the type of device, operating system, and browser used to access the link."
+    ],
+    "images": [],
+    "technologies": [
+      "Golang",
+      "Gin",
+      "Http",
+      "Redis",
+      "MongoDB",
+      "Telegram API"
+    ],
+    "liveLink": "https://web.telegram.org/k/#@ClipURLBot",
+    "githubLink": "https://github.com/saifwork/Url-Shortner-Service"
+  },
+  {
+    "title": "Random Audio/Video Chat Application",
+    "contents": [
+      "Developed a Flutter-based web app for one-on-one video and audio communication.",
+      "Integrated WebRTC for real-time, low-latency audio and video calls.",
+      "Built a Gin-based backend and used WebSockets for transmitting initial connection data.",
+      "A completely independent video/audio calling solution without relying on third-party services, ensuring user privacy and security.",
+      "Users connect directly via WebRTC for peer-to-peer communication with minimal latency.",
+      "Designed as a random chat platform similar to Omegle, allowing users to connect with strangers for video or audio calls.",
+      "Provides essential controls: users can mute their microphone and turn off their video at any time during the call.",
+      "Includes an 'Auto Connect' feature that automatically reconnects users if they get disconnected due to the other person leaving the chat.",
+      "Ensures a smooth user experience with real-time signaling and seamless reconnection."
+    ],
+    "images": [],
+    "technologies": [
+      "Flutter",
+      "WebRTC",
+      "MongoDB",
+      "Golang",
+      "Gin",
+      "WebSockets",
+      "Http"
+    ],
+    "liveLink": "https://meengle-talk.vercel.app/",
+    "githubLink": "https://github.com/saifwork/meengle-frontend"
+  },
+  {
+    "title": "YouTube Video Downloader Bot",
+    "contents": [
+      "Developed a Golang microservice backend for a Telegram bot that downloads YouTube videos.",
+      "Integrated a CLI tool for efficient video processing and downloading.",
+      "On URL submission, users receive video quality options: Audio-only, 360p, 480p, 720p, 1080p.",
+      "Users can access the bot's commands: /help (usage guide), /about (bot details), and /feedback (send feedback).",
+      "Supports downloading entire YouTube playlists in addition to single video downloads.",
+      "Ensures fast and reliable video/audio processing with optimized backend performance.",
+      "Handles error cases gracefully, providing feedback to users in case of failed downloads."
+    ],
+    "images": [],
+    "technologies": [
+      "Golang",
+      "Gin",
+      "Http",
+      "Telegram API",
+      "CLI"
+    ],
+    "liveLink": "https://web.telegram.org/k/#@QuickVidLoaderBot",
+    "githubLink": "https://github.com/saifwork/Video-Downloader-Service"
+  },
+  {
+    "title": "Campaign Microservice",
+    "contents": [
+      "Designed a scalable microservice-based architecture to manage campaign scheduling, winner selection, and real-time updates using Kafka.",
+      "Acts as a task scheduler, allowing users to schedule, update, delete, and reschedule campaigns dynamically.",
+      "Ensures that scheduled tasks execute precisely at the specified time, handling time-based triggers efficiently.",
+      "Utilizes Kafka for event-driven communication, ensuring reliable message processing and distributed task execution.",
+      "Uses Redis for caching frequently accessed data to improve performance and reduce database load.",
+      "Stores campaign and winner-related data in MongoDB, ensuring high availability and flexibility in handling large datasets.",
+      "Implements fault-tolerant mechanisms to handle system failures and ensure task execution without data loss.",
+      "Supports real-time status updates, providing transparency into campaign execution and completion.",
+      "Optimized for scalability, allowing seamless handling of a growing number of campaigns without performance degradation.",
+      "Note: This is a private company project, so live and GitHub links cannot be provided."
+    ],
+    "images": [],
+    "technologies": [
+      "Golang",
+      "Gin",
+      "Http",
+      "Kafka",
+      "MongoDB",
+      "Redis"
+    ],
+    "liveLink": "",
+    "githubLink": ""
+  },
+  {
+    "title": "Slot Game Dynamic Board Generator",
+    "contents": [
+      "Implemented a dynamic slot reel generator for a casino game, ensuring randomness and fairness.",
+      "Designed a flexible service that accepts a game configuration defining how the board should be structured.",
+      "Capable of generating slot boards of any size and layout by processing the provided configuration.",
+      "Handles various game mechanics, including symbol placement, reel logic, and configurable paylines.",
+      "Acts as the backend for fruit slot games, determining fruit placement positions and calculating winning outcomes.",
+      "Ensures fairness by incorporating randomization techniques that comply with gaming standards.",
+      "Uses MongoDB for storing game configurations and historical game data.",
+      "Optimized for performance, allowing seamless board generation without latency issues.",
+      "Note: This is a private company project, so live and GitHub links cannot be provided."
+    ],
+    "images": [],
+    "technologies": [
+      "Golang",
+      "Mux",
+      "Http",
+      "MongoDB"
+    ],
+    "liveLink": "",
+    "githubLink": ""
+  }
 ]
-  
