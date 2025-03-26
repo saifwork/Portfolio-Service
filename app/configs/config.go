@@ -15,7 +15,7 @@ type Config struct {
 	ServiceHost  string // Host of the service
 	ServicePort  string // Port of the service
 	ServiceHTTPS string // HTTPS of the service
-	
+
 	MongoDSN                    string // MongoDB DSN (Data Source Name)
 	MongoDatabase               string // MongoDB database name
 	MongoMaxPoolSize            uint64 // MongoDB maximum pool size
@@ -55,7 +55,7 @@ func (c *Config) initialize(envPath string) {
 	}
 
 	c.ServiceHost = os.Getenv("SERVICE_HOST")
-	c.ServicePort = os.Getenv("SERVICE_PORT")
+	c.ServicePort = os.Getenv("PORT")
 	c.ServiceHTTPS = os.Getenv("SERVICE_HTTPS")
 
 	c.MongoDSN = os.Getenv("MONGO_DSN")
