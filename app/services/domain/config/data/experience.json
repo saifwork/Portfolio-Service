@@ -1,0 +1,45 @@
+[
+    {
+      "title": "SDE Game Developer",
+      "company": "Prudent Gaming, Bengaluru",
+      "duration": "Oct 2023 - Present",
+      "location": "Remote",
+      "responsibilities": [
+        "Developed a casino-themed web app using Flutter for Android, iOS, and web.",
+        "Built backend services for campaign management, payment gateway, and slot reel generator, handling creation, scheduling, winner announcements, and updates.",
+        "Integrated PayU payment gateway with MongoDB for real-time transaction tracking."
+      ]
+    },
+    {
+      "title": "Flutter Developer",
+      "company": "NextGen Samvaad, Varanasi",
+      "duration": "Jan 2023 - Sep 2023",
+      "location": "Onsite",
+      "responsibilities": [
+        "Developed an e-commerce platform with integrated social media features for enhanced user engagement.",
+        "Implemented a QR code scanner app for user reviews and ratings, along with QR code generation for merchants.",
+        "Used Provider, Bloc, and GetX for efficient state management."
+      ]
+    },
+    {
+      "title": "Junior Database Administrator",
+      "company": "Cashpor India, Varanasi",
+      "duration": "Sep 2022 - Dec 2022",
+      "location": "Onsite",
+      "responsibilities": [
+        "Managed and maintained SQL databases, ensuring data integrity and optimal performance.",
+        "Diagnosed and resolved database-related issues efficiently."
+      ]
+    },
+    {
+      "title": "Freelance Experience",
+      "company": "Melooha (Astrology App)",
+      "duration": "N/A",
+      "location": "Remote",
+      "responsibilities": [
+        "Contributed to the development of multiple app pages using Flutter.",
+        "Implemented UI components and optimized performance for a seamless user experience.",
+        "Ensured cross-platform compatibility for Android and iOS."
+      ]
+    }
+]

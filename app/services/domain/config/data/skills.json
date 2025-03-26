@@ -1,0 +1,10 @@
+{
+    "title": "My Skills",
+    "items": [
+      "Golang", "Java", "Dart",  
+      "Gin", "Mux", "Flutter", "Provider", "Bloc",  
+      "SQL", "Firebase", "MongoDB", "Redis",  
+      "WebSocket", "WebRTC", "Kafka", "REST API", "Sqflite", "Hive"
+    ]
+}
+  

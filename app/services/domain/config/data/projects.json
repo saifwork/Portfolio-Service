@@ -1,0 +1,70 @@
+[
+    {
+      "title": "Telegram URL Shortener Bot",
+      "contents": [
+        "Developed a Golang-based microservice for URL shortening with a Telegram bot interface.",
+        "Implemented features for link shortening, retrieval, click stats, and link management.",
+        "Used Redis for caching and MongoDB for persistent storage to ensure fast and efficient URL retrieval."
+      ],
+      "images": [],
+      "technologies": ["Golang", "Redis", "MongoDB", "Telegram API"],
+      "liveLink": "https://web.telegram.org/k/#@ClipURLBot",
+      "githubLink": "https://github.com/saifwork/Url-Shortner-Service"
+    },
+    {
+      "title": "YouTube Video Downloader Bot",
+      "contents": [
+        "Developed a Golang microservice backend for a Telegram bot that downloads YouTube videos.",
+        "Integrated a CLI tool for efficient video processing and downloading.",
+        "On URL submission, users receive video quality options: Audio-only, 360p, 480p, 720p, 1080p."
+      ],
+      "images": [],
+      "technologies": ["Golang", "Telegram API", "CLI"],
+      "liveLink": "https://web.telegram.org/k/#@QuickVidLoaderBot",
+      "githubLink": "https://github.com/saifwork/Video-Downloader-Service"
+    },
+    {
+      "title": "Random Audio/Video Chat Application",
+      "contents": [
+        "Developed a Flutter-based web app for one-on-one video and audio communication.",
+        "Integrated WebRTC for real-time, low-latency audio and video calls.",
+        "Built a Gin-based backend and used WebSockets for transmitting initial connection data."
+      ],
+      "images": [],
+      "technologies": ["Flutter", "WebRTC", "Golang", "Gin", "WebSockets"],
+      "liveLink": "",
+      "githubLink": "https://github.com/saifwork/meengle-frontend"
+    },
+    {
+      "title": "Personal Portfolio",
+      "contents": [
+        "Designed and developed a cross-platform responsive portfolio showcasing skills, projects, and achievements.",
+        "Included interactive animations and a modern UI to enhance user experience."
+      ],
+      "images": [],
+      "technologies": ["Flutter", "Dart"],
+      "liveLink": "https://portfolio-theta-fawn-75.vercel.app/",
+      "githubLink": "https://github.com/saifwork/Portfolio_Build"
+    },
+    {
+      "title": "Campaign Microservice",
+      "contents": [
+        "Designed a scalable backend to manage campaign scheduling, winner selection, and real-time updates using Kafka."
+      ],
+      "images": [],
+      "technologies": ["Golang", "Kafka", "MongoDB", "Redis"],
+      "liveLink": "",
+      "githubLink": ""
+    },
+    {
+      "title": "Slot Game Dynamic Board Generator",
+      "contents": [
+        "Implemented a dynamic slot reel generator for a casino game, ensuring randomness and fairness."
+      ],
+      "images": [],
+      "technologies": ["Golang"],
+      "liveLink": "",
+      "githubLink": ""
+    }
+]
+  
